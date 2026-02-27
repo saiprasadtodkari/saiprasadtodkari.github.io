@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saiprasad Todkari | AWS GenAI Engineer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0f172a;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    animation: fadeIn 2s ease-in;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: #ff9900;
+}
+
+.hero h2 {
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 12px 25px;
+    background: #ff9900;
+    color: black;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+section {
+    padding: 80px 10%;
+}
+
+h3.section-title {
+    color: #ff9900;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 10px 25px rgba(255,153,0,0.3);
+}
+
+.skills-bar {
+    margin-bottom: 20px;
+}
+
+.skills-bar span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.progress {
+    background: #334155;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress div {
+    height: 8px;
+    background: #ff9900;
+    animation: load 2s forwards;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
+
+@keyframes fadeIn {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+@keyframes load {
+    from {width:0;}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div><strong>Saiprasad</strong></div>
+    <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<div class="hero">
+    <h1>Saiprasad Todkari</h1>
+    <h2>AWS | DevOps | Machine Learning | Generative AI Engineer</h2>
+    <a href="#projects" class="btn">Explore My Work</a>
+</div>
+
+<section id="about">
+<h3 class="section-title">About Me</h3>
+<p>
+AWS Cloud Engineer with 3.5+ years experience in cloud migration automation,
+serverless architecture, ML pipelines, and GenAI solutions using Amazon Bedrock and OpenSearch.
+</p>
+</section>
+
+<section id="projects">
+<h3 class="section-title">Featured Projects</h3>
+
+<div class="card">
+<h4>RAG Pipeline using Bedrock + OpenSearch</h4>
+<p>Implemented embedding storage, vector search, and Nova Pro LLM for intelligent document retrieval.</p>
+</div>
+
+<div class="card">
+<h4>Cloud Migration Factory Automation</h4>
+<p>Automated DataSync deployment, FSx provisioning, Direct Connect validation, and pre-cutover checks using Lambda & Step Functions.</p>
+</div>
+
+<div class="card">
+<h4>Incident Prediction ML Model</h4>
+<p>Built predictive model using Python and Pandas to forecast high priority incidents based on historical data.</p>
+</div>
+
+</section>
+
+<section id="skills">
+<h3 class="section-title">Technical Skills</h3>
+
+<div class="skills-bar">
+<span>AWS & Serverless</span>
+<div class="progress"><div style="width:90%"></div></div>
+</div>
+
+<div class="skills-bar">
+<span>Generative AI (Bedrock, RAG)</span>
+<div class="progress"><div style="width:85%"></div></div>
+</div>
+
+<div class="skills-bar">
+<span>Python & Data Engineering</span>
+<div class="progress"><div style="width:88%"></div></div>
+</div>
+
+<div class="skills-bar">
+<span>DevOps (CI/CD, Docker, Terraform)</span>
+<div class="progress"><div style="width:80%"></div></div>
+</div>
+
+</section>
+
+<section id="contact">
+<h3 class="section-title">Contact</h3>
+<p>Email: todkarisaiprasad@gmail.com</p>
+<p>GitHub: github.com/saiprasadtodkari</p>
+<p>LinkedIn: Add LinkedIn URL</p>
+<a href="resume.pdf" class="btn">Download Resume</a>
+</section>
+
+<footer>
+© 2026 Saiprasad Todkari | Built with  
+</footer>
+
+</body>
+</html>
